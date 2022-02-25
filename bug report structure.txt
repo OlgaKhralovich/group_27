@@ -38,3 +38,46 @@ P3 Low- исправляется в самую последнюю очередь
 
 12)Attachment --Файл с логами, скриншот или любой другой документ, 
 который может помочь прояснить причину ошибки или указать на способ решения проблемы.
+
+
+ID  1 
+ 
+Summary - При вводе  данных с клиента в поле ввода NAME на главной странице Registration Form  на сервер идет отправка данных  методом GET
+Description -Пользователь находится на главной странице Registration Form,после заполнения данных поля NAME нажимает на кнопку SUBMIT
+Priority - High
+Severity - Critical
+Steps to reproduce -"1. Открыть главную страницу Registration Form; 
+ 2.В поле ввода NAME ввести данные
+ 3.Нажать на кнопку SUBMIT;"
+Actual result -На сервер отправлены данные   методом GET
+Expected result- На сервер отправлены данные   методом POST
+Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)
+Reproducibility -Всегда.	
+
+
+ID   2
+Summary - Date picker в поле ввода BIRTHDATE  не ограничен при вводе  давно прошедшей даты на главной странице Registration Form
+Description -Пользователь находится на главной странице Registration Form контроль календаря не ограничен при вводе  давно прошедшей даты( например 01.02.1823)
+Priority - Low
+Severity - Minor
+Steps to reproduce -"1. Открыть главную страницу Registration Form; 
+ 2.Нажать на значок Date picker в поле ввода BIRTHDATE 
+                   3.Выбрать данные"
+Actual result -Date picker в поле ввода BIRTHDATE  не ограничен при вводе  давно прошедшей даты(например 01.02.1823) на главной странице Registration Form
+Expected result- Date picker  ограничен при вводе  давно прошедшей даты
+Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)
+Reproducibility -Всегда.
+
+ID  3  
+Summary - Формат даты в поле ввода BIRTHDATE отображён для рускоязычной локализации дд\мм\гггг на главной странице Registration Form
+Description -Пользователь находится на главной странице Registration Form в поле ввода BIRTHDATE вводит формат даты для рускоязычной локализации дд\мм\гггг в поле ввода BIRTHDATE
+Priority - Low
+Severity - Minor
+Steps to reproduce -"1. Открыть главную страницу Registration Form; 
+ 2.В поле ввода BIRTHDATE ввести день\месяц\год
+ 3.Нажать на кнопку SUBMIT"
+Actual result -Формат даты в поле ввода BIRTHDATE отображён для рускоязычной локализации дд\мм\гггг на главной странице Registration Form
+Expected result- Формат даты в поле ввода BIRTHDATE отображён для англоязычной локализации мм\дд\гггг на главной странице Registration Form
+Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)
+Reproducibility -Всегда.
+Comments-вся страница заполнена на английском,интуитивно прелполагаю, что данная форма не для русскоязычной локали.

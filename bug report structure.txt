@@ -62,7 +62,7 @@ Priority - Low
 Severity - Minor
 Steps to reproduce -"1. Открыть главную страницу Registration Form; 
  2.Нажать на значок Date picker в поле ввода BIRTHDATE 
-                   3.Выбрать данные"
+ 3.Выбрать данные"
 Actual result -Date picker в поле ввода BIRTHDATE  не ограничен при вводе  давно прошедшей даты(например 01.02.1823) на главной странице Registration Form
 Expected result- Date picker  ограничен при вводе  давно прошедшей даты
 Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)

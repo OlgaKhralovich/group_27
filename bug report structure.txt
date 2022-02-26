@@ -70,15 +70,15 @@ Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)
 Reproducibility -Всегда
 
 ID  3  
-Summary - Формат даты в поле ввода BIRTHDATE отображён для рускоязычной локализации дд\мм\гггг на главной странице Registration Form
-Description - Пользователь находится на главной странице Registration Form в поле ввода BIRTHDATE вводит формат даты для рускоязычной локализации дд\мм\гггг в поле ввода BIRTHDATE
+Summary - Формат даты в поле ввода BIRTHDATE отображён для русcкоязычной локализации дд\мм\гггг на главной странице Registration Form
+Description - Пользователь находится на главной странице Registration Form в поле ввода BIRTHDATE вводит формат даты для русcкоязычной локализации дд\мм\гггг в поле ввода BIRTHDATE
 Priority - Low
 Severity - Minor
 Steps to reproduce:
  1. Открыть главную страницу Registration Form 
  2. В поле ввода BIRTHDATE ввести день\месяц\год
  3. Нажать на кнопку SUBMIT
-Actual result - Формат даты в поле ввода BIRTHDATE отображён для рускоязычной локализации дд\мм\гггг на главной странице Registration Form
+Actual result - Формат даты в поле ввода BIRTHDATE отображён для русcкоязычной локализации дд\мм\гггг на главной странице Registration Form
 Expected result - Формат даты в поле ввода BIRTHDATE отображён для англоязычной локализации мм\дд\гггг на главной странице Registration Form
 Environment - Windows,7 Version 97.0.4692.99 (Official build), (32 bit)
 Reproducibility - Всегда
